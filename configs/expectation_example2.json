@@ -1,0 +1,19 @@
+{
+  "httpRequest": {
+    "decription": "Trigger unlimited times",
+    "times": 0,
+    "method": "POST",
+    "path": "/debito/efetivar/transacao"
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "body": {
+      "datahora": "04/01/2022 12:47:0300",
+      "resultado": "00",
+      "valorAprovadoParcial": 3.50,
+      "dadosConsultaSaldo": {
+        "saldoEmConta": 46.00
+      }
+    }
+  }
+}
